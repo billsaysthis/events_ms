@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :speakers
+
   resources :page_templates
 
   resources :pages
