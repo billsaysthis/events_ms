@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :page_templates
+
   resources :pages
 
   devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
