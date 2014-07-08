@@ -1,4 +1,5 @@
 ActiveAdmin.register Location do
+  permit_params :name, :street, :city, :state, :zipcode, :is_default
 
   
   # See permitted parameters documentation:
