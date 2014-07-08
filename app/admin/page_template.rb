@@ -1,4 +1,5 @@
 ActiveAdmin.register PageTemplate do
+  permit_params :name, :content, :available
 
   
   # See permitted parameters documentation:
