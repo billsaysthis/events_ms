@@ -1,4 +1,5 @@
 ActiveAdmin.register Speaker do
+  permit_params :name, :url, :bio, :photo
 
   
   # See permitted parameters documentation:
