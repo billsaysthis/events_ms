@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  subtitle: MyString
+  description: MyText
+  occurs_at: 2014-07-08 00:05:17
+  location_id: 
+  video: MyString
+  presentation: MyString
+  page_template_id: 
+
+two:
+  title: MyString
+  subtitle: MyString
+  description: MyText
+  occurs_at: 2014-07-08 00:05:17
+  location_id: 
+  video: MyString
+  presentation: MyString
+  page_template_id: 
