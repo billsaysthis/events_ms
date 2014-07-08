@@ -1,4 +1,5 @@
 ActiveAdmin.register Event do
+  permit_params :title, :subtitle, :description, :occurs_at, :video, :presentation
 
   
   # See permitted parameters documentation:
